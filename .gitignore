@@ -1,0 +1,125 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Konfiguracje systemu operacyjnego
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build artefacts
+bin/
+obj/
+out/
+artifacts/
+
+# Debug i Release katalogi
+Debug/
+Release/
+
+# User-specific files
+*.rsuser
+*.rsuser-journal
+
+# Auto-generated files
+*.Generated.cs
+*.Generated.txt
+*.Generated.md
+
+# Logi i pliki tymczasowe
+*.log
+*.tlog
+*.ide.log
+*.pidb
+*.sdf
+*.sqlite
+*.cache
+*.pdb
+
+# Konfiguracje i sekrety
+
+appsettings.Local.json
+appsettings.*.json
+
+# Lokalne środowisko
+local.settings.json
+
+# pliki NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Windows-specific files
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+*.publishprofiles
+
+# Resharper
+_ReSharper*/
+*.[rR]e[sS]harper
+ReSharperExternalAnnotations
+
+# dotCover
+*.dotCover
+*.dotCover.xml
+
+# Coverage files
+coverage/
+*.coverage
+*.coveragexml
+*.opencover.xml
+
+# Code signing
+*.pfx
+*.snk
+
+# StyleCop
+*.stylecop
+.StyleCop/
